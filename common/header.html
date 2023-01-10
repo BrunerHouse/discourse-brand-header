@@ -44,7 +44,7 @@
         return links.split("|").map(l => {
           const values = l.split(",");
           return this.attach('link', {
-              rawLabel: values[0].trim(),
+              rawLabel: I18n.t(themePrefix( 'links.' + values[0].trim() )),
               href: values[1].trim(),
               omitSpan: true,
               attributes: {
