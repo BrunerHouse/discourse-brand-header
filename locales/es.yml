@@ -1,4 +1,7 @@
 es:
   links:
-    home: "SITIO"
+    home: "INICIO"
+    news: "NOTICIAS"
+    forum: "FORO"
+    support: "SOPORTE"
     account: "MI CUENTA"

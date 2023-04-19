@@ -1,4 +1,7 @@
 fr:
   links:
-    home: "PLACER"
+    home: "ACCUEIL"
+    news: "NOUVELLES"
+    forum: "FORUM"
+    support: "ASSISTANCE"
     account: "MON COMPTE"

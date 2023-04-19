@@ -110,8 +110,8 @@
       const showMobileLogo = mobileView && (mobileLogoUrl.length > 0);
 
       const logoUrl = settings.logo_url || "";
-      const title = settings.brand_name;
-
+      const brand_name = settings.brand_name;
+      const title = I18n.t(themePrefix( 'links.' + brand_name.trim() ))
       if (showMobileLogo) {
         return h('img#brand-logo.logo-big', { key: 'logo-mobile', attributes: { src: mobileLogoUrl, alt: title } });
       } else if (logoUrl.length) {
